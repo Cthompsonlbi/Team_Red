@@ -88,8 +88,32 @@ Here is a preliminary ERD:
 ---
 #### rudimentary EDA 
 
-""" SPACE FOR CHADS CONTENT """
+Quick link to our EDA Jupyter notebook file that contains code for our **INTIAL** work with regards to cleaning the Travel dataset:
+[Travel Dataset Initial Clean](Notebooks/InsightEDA.ipynb)
 
+The intial steps taken after pulling the Travel.csv file into a dataframe to get a better understanding of the data that we are working with are as follows:	
+
+	* running a count function-- count() on the dataset to capture sum of rows with values
+	* running a unique function -- nunique() on the dataset to see if there were values that exceeded the anticipated amount
+	* running a null function -- isnull() to identify columns that contain null values and the quantity of null values
+	* merge the three resulting dataframes from the functions above into a dataframe to allow for ease of analysis
+	* inspecting each column using the groupby and size function --groupby().size() to identify columns with erroneous values or complex groupings
+	* adjusting column values to modify erroneous values and simplify complex groupings
+	
+* Screenshot of combining three dataframes created using functions count, nunique, isnull
+
+![001DataLoad](Images/001DataLoad.PNG)
+
+* Screenshot of using groupby function and replace function to modify column values
+
+![001DataLoad](Images/001DataLoad.PNG)
+	
+* Screenshot of using groupby function and replace function to modify column values
+
+![001DataLoad](Images/001DataLoad.PNG)
+	
+
+""" SPACE FOR CHADS CONTENT """
 ---
 
 
