@@ -102,24 +102,15 @@ The intial steps taken after pulling the Travel.csv file into a dataframe to get
 	
 * Screenshot of combining three dataframes created using functions count, nunique, isnull
 
-![001DataLoad](Images/001DataLoad.PNG)
+![EDA_DF_Combine](Images/EDA_DF_Combine.PNG)
 
 * Screenshot of using groupby function and replace function to modify column values
 
-![001DataLoad](Images/001DataLoad.PNG)
+![SampleGroupFunction1](Images/SampleGroupFunction1.PNG)
 	
-* Screenshot of using groupby function and replace function to modify column values
+* Additional screenshot of using groupby function and replace function to modify column values
 
-![001DataLoad](Images/001DataLoad.PNG)
-	
-
-""" SPACE FOR CHADS CONTENT """
----
-
-
----
-
-
+![SampleGroupFunction2](Images/SampleGroupFunction2.PNG)
 
 
 
