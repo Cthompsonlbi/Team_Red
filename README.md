@@ -70,7 +70,7 @@ A mockup of our Machine learning model can be found here:
 We use PG Admin as our Database.
 We have seperated the Dataset into two tables a Customer table and a Marketing table.
 The 2 Data
-The 2 tables are connect through he Customer ID.
+The 2 tables are connected through he Customer ID.
 
 Here is a preliminary ERD:
 
