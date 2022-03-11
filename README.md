@@ -9,7 +9,7 @@ Module 20 Challenge
 ---
 #### Communication Plan			
 			
- - Project	Content	Schedule	Format
+
  - Project Plan for the week	Every Tuesday 6:30 pm - 7:00 pm	Zoom call
  - Project update 	Every Thursday 6:30 pm- 7:00 pm	Zoom call
  - Review and work together 	Every Friday 6:00 pm-6:30 pm Zoom Call
