@@ -78,7 +78,6 @@ This will be set up later. Currently we have it connected through the local mach
 
 We use PG Admin as our Database.
 We have seperated the Dataset into two tables a Customer table and a Marketing table.
-The 2 Data
 The 2 tables are connected through he Customer ID.
 
 Here is a preliminary ERD:
