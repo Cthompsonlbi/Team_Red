@@ -39,6 +39,8 @@ Our client is introducing a new vacation package. He would like to answer at lea
 
 Travel.csv from the Kaggle website
 https://www.kaggle.com/susant4learning/holiday-package-purchase-prediction
+
+Click here to get directly to the CSV file:  https://github.com/Cthompsonlbi/Team_Red/blob/main/Resources/Travel.csv
 ---
 #### Mockup Machine learning Model
 
