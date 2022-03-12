@@ -22,7 +22,7 @@ Module 20 Challenge
 - Pandas
 - Sklearn
 - Tableau
-- Postgres SQL
+- PostgreSQL
 
 ---
 ### Topic of our Project
