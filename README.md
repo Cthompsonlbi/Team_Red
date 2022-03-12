@@ -9,7 +9,7 @@ Module 20 Challenge
 ---
 #### Communication Plan			
 			
- - Project	Content	Schedule	Format
+
  - Project Plan for the week	Every Tuesday 6:30 pm - 7:00 pm	Zoom call
  - Project update 	Every Thursday 6:30 pm- 7:00 pm	Zoom call
  - Review and work together 	Every Friday 6:00 pm-6:30 pm Zoom Call
@@ -53,10 +53,15 @@ https://www.kaggle.com/susant4learning/holiday-package-purchase-prediction
 
 Click here to get directly to the CSV file:  https://github.com/Cthompsonlbi/Team_Red/blob/main/Resources/Travel.csv
 
+The dataset contains 20 columns and 4888 rows.
+It includes Customer and Marketing information and a column that shows if the vacation package was purchased or not.
+There are currently 5 types of packages the company is offering - Basic, Standard, Deluxe, Super Deluxe, King.
+
 ---
 #### Mockup Machine learning Model
 
 ##### Machine Learning Model:
+
 We decided to use a Supervised Learning Model, because our data has labeled input and output data.
 It has a target column and features.
 As a model we use a DecisionTree classifier and investigate further for class imbalances.
@@ -64,13 +69,17 @@ As a second validation we will be using a RandomForest classifier model.
 
 A mockup of our Machine learning model can be found here: 
 
+The Machine learning model will pull data from the PG Admin database using Heroku.
+This will be set up later. Currently we have it connected through the local machine.
+
+
 ---
 #### Mockup Database
 
 We use PG Admin as our Database.
 We have seperated the Dataset into two tables a Customer table and a Marketing table.
 The 2 Data
-The 2 tables are connect throught he Customer ID.
+The 2 tables are connect through he Customer ID.
 
 Here is a preliminary ERD:
 
