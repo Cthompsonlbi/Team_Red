@@ -70,7 +70,7 @@ As a second validation we will be using a RandomForest classifier model.
 A mockup of our Machine learning model can be found here: 
 
 The Machine learning model will pull data from the PG Admin database using Heroku.
-This will be set up later. Currently we have it connected through the local machine.
+This will be set up later. Currently we have it connected through sqlalchemy to the local machine.
 
 
 ---
@@ -78,7 +78,7 @@ This will be set up later. Currently we have it connected through the local mach
 
 We use PG Admin as our Database.
 We have seperated the Dataset into two tables a Customer table and a Marketing table.
-The 2 tables are connected through he Customer ID.
+The 2 tables are connected through the Customer ID.
 
 Here is a preliminary ERD:
 
@@ -89,7 +89,7 @@ We have made the Primary Key CustomerID as this is the identifier for each piece
 ---
 #### rudimentary EDA 
 
-Quick link to our EDA Jupyter notebook file that contains code for our **INTIAL** work with regards to cleaning the Travel dataset:
+Quick link to our EDA Jupyter notebook file that contains code for our **INITIAL** work with regards to cleaning the Travel dataset:
 [Travel Dataset Initial Clean](Notebooks/InsightEDA.ipynb)
 
 The intial steps taken after pulling the Travel.csv file into a dataframe to get a better understanding of the data that we are working with are as follows:	
