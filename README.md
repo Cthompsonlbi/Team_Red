@@ -82,7 +82,9 @@ The 2 tables are connected through he Customer ID.
 
 Here is a preliminary ERD:
 
-"""" SPACE FOR TJs CONTENT """""
+As you can see, we have setup the tables based on the different information pertaining to both the consumer and the marketing information.
+We have made the Primary Key CustomerID as this is the identifier for each piece of information per each consumer and their relative marketing info.
+![DB_MockUp](https://user-images.githubusercontent.com/92830382/157993579-45889894-1ae2-41ca-8e9f-140f6991338d.PNG)
 
 ---
 #### rudimentary EDA 
@@ -110,6 +112,8 @@ The intial steps taken after pulling the Travel.csv file into a dataframe to get
 * Additional screenshot of using groupby function and replace function to modify column values
 
 ![SampleGroupFunction2](Images/SampleGroupFunction2.PNG)
+
+
 
 
 
