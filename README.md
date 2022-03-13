@@ -11,16 +11,16 @@ Module 20 Challenge
 			
 
  - Project Plan for the week:	
-  	* *Every Tuesday 6:30 pm - 7:00 pm via Zoom call
+  	* Every Tuesday 6:30 pm - 7:00 pm via Zoom call
  - Project update 	
- 	* *Every Thursday 6:30 pm- 7:00 pm via Zoom call
+ 	* Every Thursday 6:30 pm- 7:00 pm via Zoom call
  - Review and work together 	
- 	* *Every Friday 6:00 pm-6:30 pm via Zoom Call
+ 	* Every Friday 6:00 pm-6:30 pm via Zoom Call
  - Review and finalize together before submission 	
- 	* *Every Saturday 11:00 pm - 12:00 pm via Zoom Call
+ 	* Every Saturday 11:00 pm - 12:00 pm via Zoom Call
 
 ---
-#### Technologies used for this project:
+#### Technologies used for this Project:
 
 - Python
 - Pandas
@@ -34,7 +34,7 @@ Module 20 Challenge
 We will analyze a Holiday package Dataset. The purpose of this analysis is to look at past events and use Data analysis and Machine learning to give business recommendations to our client on which demographic would most likely purchase a newly introduced vacation package.
 
 ---
-#### Reason for selection: 
+#### Reason for Selection: 
 
 -	One of our team members is familiar with the industry and has a passion for analyzing this specific topic.
 -	The Dataset is relevant to our questions, has enough data points and features and could be easily adapted to an industry dataset.
@@ -42,7 +42,7 @@ We will analyze a Holiday package Dataset. The purpose of this analysis is to lo
 -	It is publicly available and updated monthly. 
 
 ---
-#### Questions we hope to answer:
+#### Questions we Hope to Answer:
 
 Our client is introducing a new vacation package. They would like to answer at least one of these questions:
 
