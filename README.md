@@ -10,10 +10,14 @@ Module 20 Challenge
 #### Communication Plan			
 			
 
- - Project Plan for the week	Every Tuesday 6:30 pm - 7:00 pm	Zoom call
- - Project update 	Every Thursday 6:30 pm- 7:00 pm	Zoom call
- - Review and work together 	Every Friday 6:00 pm-6:30 pm Zoom Call
- - Review and finalize together before submission 	Every Saturday 11:00 pm - 12:00 pm Zoom Call
+ - Project Plan for the week:	
+  	* *Every Tuesday 6:30 pm - 7:00 pm via Zoom call
+ - Project update 	
+ 	* *Every Thursday 6:30 pm- 7:00 pm via Zoom call
+ - Review and work together 	
+ 	* *Every Friday 6:00 pm-6:30 pm via Zoom Call
+ - Review and finalize together before submission 	
+ 	* *Every Saturday 11:00 pm - 12:00 pm via Zoom Call
 
 ---
 #### Technologies used for this project:
@@ -27,23 +31,29 @@ Module 20 Challenge
 ---
 ### Topic of our Project
 
-We analyze a Holiday package Dataset. The purpose of the analysis is to look at past events and use Data analysis and Machine learning to give business recommendations to our client on how to introduce a new vacation package.
+We will analyze a Holiday package Dataset. The purpose of this analysis is to look at past events and use Data analysis and Machine learning to give business recommendations to our client on which demographic would most likely purchase a newly introduced vacation package.
 
+---
 #### Reason for selection: 
 
 -	One of our team members is familiar with the industry and has a passion for analyzing this specific topic.
 -	The Dataset is relevant to our questions, has enough data points and features and could be easily adapted to an industry dataset.
--	The Data seems at first glance to be quite clean.
+-	The Data seems, at first glance, to be quite clean.
 -	It is publicly available and updated monthly. 
 
+---
 #### Questions we hope to answer:
 
-Our client is introducing a new vacation package. He would like to answer at least one of these questions:
+Our client is introducing a new vacation package. They would like to answer at least one of these questions:
 
--	Can we predict how the ideal target customer would look like?
+-	Can we predict what the ideal target customer would look like?
 -	What would be a good marketing strategy?
 -	What variables have the most influence on the purchase decision?
 
+---
+#### Process of Data Analysis and Evaluation
+
+![HighlevelProjectFlow](Images/HighlevelProjectFlow.PNG)
 
 ---
 #### Dataset
@@ -69,6 +79,8 @@ As a second validation we will be using a RandomForest classifier model.
 
 A mockup of our Machine learning model can be found here: 
 
+[Initial Machine Learning Mockup](Notebooks/Mock_up_Machine_Learning_Modelwith_SQL_connect.ipynb)
+
 The Machine learning model will pull data from the PG Admin database using Heroku.
 This will be set up later. Currently we have it connected through sqlalchemy to the local machine.
 
@@ -87,29 +99,30 @@ We have made the Primary Key CustomerID as this is the identifier for each piece
 ![DB_MockUp](https://user-images.githubusercontent.com/92830382/157993579-45889894-1ae2-41ca-8e9f-140f6991338d.PNG)
 
 ---
-#### rudimentary EDA 
+#### Rudimentary EDA 
 
-Quick link to our EDA Jupyter notebook file that contains code for our **INITIAL** work with regards to cleaning the Travel dataset:
+Quick link to our EDA Jupyter notebook file that contains code for our **INITIAL** work with regards to cleaning the Travel dataset can be found below:
+
 [Travel Dataset Initial Clean](Notebooks/InsightEDA.ipynb)
 
-The intial steps taken after pulling the Travel.csv file into a dataframe to get a better understanding of the data that we are working with are as follows:	
+The initial steps taken after pulling the Travel.csv file into a dataframe to get a better understanding of the data that we are working with were as follows:	
 
 	* running a count function-- count() on the dataset to capture sum of rows with values
 	* running a unique function -- nunique() on the dataset to see if there were values that exceeded the anticipated amount
 	* running a null function -- isnull() to identify columns that contain null values and the quantity of null values
-	* merge the three resulting dataframes from the functions above into a dataframe to allow for ease of analysis
+	* merge the three resulting dataframes from the functions above into a dataframe to allow ease of analysis
 	* inspecting each column using the groupby and size function --groupby().size() to identify columns with erroneous values or complex groupings
 	* adjusting column values to modify erroneous values and simplify complex groupings
 	
-* Screenshot of combining three dataframes created using functions count, nunique, isnull
+* Screenshot illustrating the combining of three dataframes created using functions count, nunique, isnull
 
 ![EDA_DF_Combine](Images/EDA_DF_Combine.PNG)
 
-* Screenshot of using groupby function and replace function to modify column values
+* Screenshot illustrating the use of the groupby function and replace function to modify column values
 
 ![SampleGroupFunction1](Images/SampleGroupFunction1.PNG)
 	
-* Additional screenshot of using groupby function and replace function to modify column values
+* Additional screenshot of groupby function and replace function to modify column values
 
 ![SampleGroupFunction2](Images/SampleGroupFunction2.PNG)
 
