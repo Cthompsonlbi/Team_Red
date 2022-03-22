@@ -96,6 +96,8 @@ Here is a preliminary ERD:
 
 As you can see, we have setup the tables based on the different information pertaining to both the consumer and the marketing information.
 We have made the Primary Key CustomerID as this is the identifier for each piece of information per each consumer and their relative marketing info.
+
+
 ![QuickDBD-export](https://user-images.githubusercontent.com/92830382/159591417-936321a5-d646-4f35-9745-389ab3cc44a4.png)
 
 
