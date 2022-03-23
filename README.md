@@ -67,7 +67,7 @@ It includes Customer and Marketing information and a column that shows if the va
 There are currently 5 types of packages the company is offering - Basic, Standard, Deluxe, Super Deluxe, King.
 
 ---
-#### Mockup Machine learning Model
+#### Machine learning Model
 
 ##### Machine Learning Model:
 
@@ -77,6 +77,7 @@ Instead of our regular Decision Tree and RandomForest Classifier we used a Balan
 We will try to use the K-fold method for cross validation and to help make a final decision on what model to use.
 
 The updated Machine Learning models can be found here:
+ensemble Learning Model [revised ensemble Learning Model](Notebooks/Insight_ensemble.ipynb)
 
 
 We decided to use a Supervised Learning Model, because our data has labeled input and output data.
