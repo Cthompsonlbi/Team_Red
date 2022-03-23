@@ -52,6 +52,14 @@ Our client is introducing a new vacation package. They would like to answer at l
 ---
 #### Process of Data Analysis and Evaluation
 
+Description of preliminary feature engineering and preliminary feature selection, including decision-making process
+
+![3](https://user-images.githubusercontent.com/91682586/159799327-5b62152f-a315-4818-a306-0a7ef502ec29.png)
+
+![12](https://user-images.githubusercontent.com/91682586/159800113-68fecc39-106a-4d56-9aaa-62a265695b3b.png)
+
+![13](https://user-images.githubusercontent.com/91682586/159800176-c50087d8-241a-4be0-b5ef-630f79057ff4.png)
+
 #### Update: We have further integrated the SQL database. The dataset is now connected to not only read from the DB, but also write the result of the EDA (clean file) back into our Database. 
 
 #### Outline of the Project
@@ -116,7 +124,7 @@ We have made the Primary Key CustomerID as this is the identifier for each piece
 ![DB_MockUp](https://user-images.githubusercontent.com/92830382/157993579-45889894-1ae2-41ca-8e9f-140f6991338d.PNG)
 
 ---
-#### EDA 
+#### EDA/ Description of preliminary data preprocessing
 
 Quick link to our EDA Jupyter notebook file that contains code for our work with regards to cleaning the Travel dataset can be found below:
 
