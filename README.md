@@ -77,7 +77,9 @@ Instead of our regular Decision Tree and RandomForest Classifier we used a Balan
 We will try to use the K-fold method for cross validation and to help make a final decision on what model to use.
 
 The updated Machine Learning models can be found here:
-[revised ensemble Learning Model](Notebooks/Insight_ensemble.ipynb)
+  - [revised ensemble Learning Model](Notebooks/Insight_ensemble.ipynb)
+  - [resampling](Notebooks/Insight_resampling.ipynb)
+  - 
 
 
 We decided to use a Supervised Learning Model, because our data has labeled input and output data.
