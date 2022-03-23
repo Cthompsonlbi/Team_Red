@@ -87,6 +87,9 @@ The updated Machine Learning models can be found here:
   - [resampling notebook](Notebooks/Insight_resampling.ipynb)
   - [Neural Network Machine Learning Model](Notebooks/InsightNeural.ipynb)
 
+This is how we split the Data using the train_test_split method
+![image](https://user-images.githubusercontent.com/91682586/159798360-c59849a2-99c6-4674-b82f-3a6527bb981b.png)
+
 --- 
 We decided to use a Supervised Learning Model, because our data has labeled input and output data.
 It has a target column and features.
