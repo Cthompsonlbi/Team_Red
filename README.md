@@ -103,9 +103,9 @@ We have made the Primary Key CustomerID as this is the identifier for each piece
 
 
 ---
-#### Rudimentary EDA 
+#### Exploratory Data Analysis
 
-Quick link to our EDA Jupyter notebook file that contains code for our **INITIAL** work with regards to cleaning the Travel dataset can be found below:
+Quick link to our EDA Jupyter notebook file that contains code for our work with regards to cleaning the Travel dataset can be found below:
 
 [Travel Dataset Initial Clean](Notebooks/InsightEDA.ipynb)
 
@@ -117,6 +117,7 @@ The initial steps taken after pulling the Travel.csv file into a dataframe to ge
 	* merge the three resulting dataframes from the functions above into a dataframe to allow ease of analysis
 	* inspecting each column using the groupby and size function --groupby().size() to identify columns with erroneous values or complex groupings
 	* adjusting column values to modify erroneous values and simplify complex groupings
+	* Use Sklearn SimpleImputer to Manage Null Values
 	
 * Screenshot illustrating the combining of three dataframes created using functions count, nunique, isnull
 
