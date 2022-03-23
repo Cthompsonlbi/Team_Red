@@ -52,6 +52,8 @@ Our client is introducing a new vacation package. They would like to answer at l
 ---
 #### Process of Data Analysis and Evaluation
 
+#### Update: We have further integrated the SQL database. The dataset is now connected to not only read from the DB, but also write the result of the EDA (clean file) back into our Database. 
+
 ![HighlevelProjectFlow](Images/HighlevelProjectFlow.PNG)
 
 ---
