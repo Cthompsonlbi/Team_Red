@@ -71,6 +71,14 @@ There are currently 5 types of packages the company is offering - Basic, Standar
 
 ##### Machine Learning Model:
 
+Update:
+We found that our dataset is very unbalanced (ProdTaken yes/no). Therefore we have adjusted our approach.
+Instead of our regular Decision Tree and RandomForest Classifier we used a BalancedRandomForest and Over and Undersampling in the code.
+We will try to use the K-fold method for cross validation and to help make a final decision on what model to use.
+
+The updated Machine Learning models can be found here:
+
+
 We decided to use a Supervised Learning Model, because our data has labeled input and output data.
 It has a target column and features.
 As a model we use a DecisionTree classifier and investigate further for class imbalances.
@@ -81,12 +89,7 @@ A mockup of our initial Machine learning model can be found here:
 The Machine learning model will pull data from the PG Admin database using Heroku.
 This will be set up later. Currently we have it connected through sqlalchemy to the local machine.
 
-Update:
-We found that our dataset is very unbalanced (ProdTaken yes/no). Therefore we have adjusted our approach.
-Instead of our regular Decision Tree and RandomForest Classifier we used a BalancedRandomForest and Over and Undersampling in the code.
-We will try to use the K-fold method for cross validation and to help make a final decision on what model to use.
 
-The updated Machine Learning models can be found here:
 
 
 
