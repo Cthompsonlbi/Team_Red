@@ -54,6 +54,8 @@ Our client is introducing a new vacation package. They would like to answer at l
 ---
 #### Process of Data Analysis and Evaluation
 
+#### Update: We have further integrated the SQL database. The dataset is now connected to not only read from the DB, but also write the result of the EDA (clean file) back into our Database. 
+
 ![HighlevelProjectFlow](Images/HighlevelProjectFlow.PNG)
 
 ---
@@ -69,23 +71,31 @@ It includes Customer and Marketing information and a column that shows if the va
 There are currently 5 types of packages the company is offering - Basic, Standard, Deluxe, Super Deluxe, King.
 
 ---
-#### Mockup Machine learning Model
+#### Machine learning Model
 
-##### Machine Learning Model:
+##### **Update**:
+We found that our dataset is very unbalanced (ProdTaken yes/no). Therefore we have adjusted our approach.
+In addition to our regular Decision Tree and RandomForest Classifier we explored a BalancedRandomForest as well as Over and Undersampling in the code.
+We also added a Neural Network Model to the Mix. We will try to use the K-fold method for cross validation and to help make a final decision on what model we will use.
 
+The updated Machine Learning models can be found here:
+
+  - [revised ensemble Machine Learning Model](Notebooks/Insight_ensemble.ipynb)
+  - [resampling notebook](Notebooks/Insight_resampling.ipynb)
+  - [Neural Network Machine Learning Model](Notebooks/InsightNeural.ipynb)
+
+--- 
 We decided to use a Supervised Learning Model, because our data has labeled input and output data.
 It has a target column and features.
 As a model we use a DecisionTree classifier and investigate further for class imbalances.
 As a second validation we will be using a RandomForest classifier model.
-
-A mockup of our Machine learning model can be found here: 
-
+A mockup of our initial Machine learning model can be found here: 
 [Initial Machine Learning Mockup](Notebooks/Mock_up_Machine_Learning_Modelwith_SQL_connect.ipynb)
 
 The Machine learning model will pull data from the PG Admin database using Heroku.
 This will be set up later. Currently we have it connected through sqlalchemy to the local machine.
 
-
+---
 ---
 #### Mockup Database
 
@@ -129,8 +139,7 @@ The initial steps taken after pulling the Travel.csv file into a dataframe to ge
 	
 * Additional screenshot of groupby function and replace function to modify column values
 
-![SampleGroupFunction2](Images/SampleGroupFunction2.PNG)
-
+![image](https://user-images.githubusercontent.com/91682586/159763571-9262e494-9fd7-4114-9807-800b297dd0dd.png)
 
 
 
