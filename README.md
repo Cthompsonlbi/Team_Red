@@ -123,8 +123,7 @@ The initial steps taken after pulling the Travel.csv file into a dataframe to ge
 	
 * Additional screenshot of groupby function and replace function to modify column values
 
-![SampleGroupFunction2](Images/SampleGroupFunction2.PNG)
-
+![image](https://user-images.githubusercontent.com/91682586/159763571-9262e494-9fd7-4114-9807-800b297dd0dd.png)
 
 
 
