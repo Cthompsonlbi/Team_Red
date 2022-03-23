@@ -54,7 +54,18 @@ Our client is introducing a new vacation package. They would like to answer at l
 ---
 #### Process of Data Analysis and Evaluation
 
+Description of preliminary feature engineering and preliminary feature selection, including decision-making process
+
+![3](https://user-images.githubusercontent.com/91682586/159799327-5b62152f-a315-4818-a306-0a7ef502ec29.png)
+
+![12](https://user-images.githubusercontent.com/91682586/159800113-68fecc39-106a-4d56-9aaa-62a265695b3b.png)
+
+![13](https://user-images.githubusercontent.com/91682586/159800176-c50087d8-241a-4be0-b5ef-630f79057ff4.png)
+
+
 #### Update: We have further integrated the SQL database. The dataset is now connected to not only read from the DB, but also write the result of the EDA (clean file) back into our Database. 
+
+
 
 ![HighlevelProjectFlow](Images/HighlevelProjectFlow.PNG)
 
@@ -83,6 +94,8 @@ The updated Machine Learning models can be found here:
   - [revised ensemble Machine Learning Model](Notebooks/Insight_ensemble.ipynb)
   - [resampling notebook](Notebooks/Insight_resampling.ipynb)
   - [Neural Network Machine Learning Model](Notebooks/InsightNeural.ipynb)
+
+This is how we split the Data using the train_test_split method ![image](https://user-images.githubusercontent.com/91682586/159809128-c81e74f5-5687-4ddd-a23f-1455d21b5fc2.png)
 
 --- 
 We decided to use a Supervised Learning Model, because our data has labeled input and output data.
