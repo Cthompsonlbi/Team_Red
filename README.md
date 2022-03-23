@@ -3,8 +3,7 @@ Module 20 Challenge
 
 ### Roles
 
-
-![image](https://user-images.githubusercontent.com/91682586/157859031-1ea508cf-c6c7-4887-bb5a-eafee28b8a9b.png)
+![image](https://user-images.githubusercontent.com/91682586/159757962-0591adf2-d16c-4401-a41f-60282c9a7377.png)
 
 ---
 #### Communication Plan			
