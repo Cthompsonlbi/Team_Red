@@ -33,6 +33,8 @@ Module 20 Challenge
 
 We will analyze a Holiday package Dataset. The purpose of this analysis is to look at past events and use Data analysis and Machine learning to give business recommendations to our client on which demographic would most likely purchase a newly introduced vacation package.
 
+Link to Google Slideshow: https://docs.google.com/presentation/d/1I5h9CG6jF9-2hxQ4abF_KSPI4CQ6rH8Pa7tIWhde0Mo/edit?usp=sharing
+
 ---
 #### Reason for Selection: 
 
