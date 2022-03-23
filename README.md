@@ -54,6 +54,11 @@ Our client is introducing a new vacation package. They would like to answer at l
 
 #### Update: We have further integrated the SQL database. The dataset is now connected to not only read from the DB, but also write the result of the EDA (clean file) back into our Database. 
 
+#### Outline of the Project
+
+![Insights on the Beach (1)](https://user-images.githubusercontent.com/91682586/159794881-d14e152a-5d14-40a0-9e5a-345df3580d43.png)
+
+
 ![HighlevelProjectFlow](Images/HighlevelProjectFlow.PNG)
 
 ---
@@ -108,9 +113,9 @@ We have made the Primary Key CustomerID as this is the identifier for each piece
 ![DB_MockUp](https://user-images.githubusercontent.com/92830382/157993579-45889894-1ae2-41ca-8e9f-140f6991338d.PNG)
 
 ---
-#### Rudimentary EDA 
+#### EDA 
 
-Quick link to our EDA Jupyter notebook file that contains code for our **INITIAL** work with regards to cleaning the Travel dataset can be found below:
+Quick link to our EDA Jupyter notebook file that contains code for our work with regards to cleaning the Travel dataset can be found below:
 
 [Travel Dataset Initial Clean](Notebooks/InsightEDA.ipynb)
 
@@ -122,7 +127,13 @@ The initial steps taken after pulling the Travel.csv file into a dataframe to ge
 	* merge the three resulting dataframes from the functions above into a dataframe to allow ease of analysis
 	* inspecting each column using the groupby and size function --groupby().size() to identify columns with erroneous values or complex groupings
 	* adjusting column values to modify erroneous values and simplify complex groupings
-	
+
+![8](https://user-images.githubusercontent.com/91682586/159796029-b5d36c83-5be5-49d9-aa0e-1600724dd57f.png)
+
+
+
+
+
 * Screenshot illustrating the combining of three dataframes created using functions count, nunique, isnull
 
 ![EDA_DF_Combine](Images/EDA_DF_Combine.PNG)
