@@ -69,17 +69,16 @@ There are currently 5 types of packages the company is offering - Basic, Standar
 ---
 #### Machine learning Model
 
-##### Machine Learning Model:
-
 Update:
 We found that our dataset is very unbalanced (ProdTaken yes/no). Therefore we have adjusted our approach.
-Instead of our regular Decision Tree and RandomForest Classifier we used a BalancedRandomForest and Over and Undersampling in the code.
-We will try to use the K-fold method for cross validation and to help make a final decision on what model to use.
+In addition to our regular Decision Tree and RandomForest Classifier we explored a BalancedRandomForest as well as Over and Undersampling in the code.
+We will try to use the K-fold method for cross validation and to help make a final decision on what model we will use.
 
 The updated Machine Learning models can be found here:
-  - [revised ensemble Learning Model](Notebooks/Insight_ensemble.ipynb)
-  - [resampling](Notebooks/Insight_resampling.ipynb)
-  - 
+
+  - [revised ensemble Machine Learning Model](Notebooks/Insight_ensemble.ipynb)
+  - [resampling notebook](Notebooks/Insight_resampling.ipynb)
+  - [Neural Network Machine Learning Model](Notebooks/InsightNeural.ipynb)
 
 
 We decided to use a Supervised Learning Model, because our data has labeled input and output data.
@@ -91,9 +90,6 @@ A mockup of our initial Machine learning model can be found here:
 
 The Machine learning model will pull data from the PG Admin database using Heroku.
 This will be set up later. Currently we have it connected through sqlalchemy to the local machine.
-
-
-
 
 
 ---
