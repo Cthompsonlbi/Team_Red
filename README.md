@@ -98,6 +98,7 @@ The updated Machine Learning models can be found here:
   - [revised ensemble Machine Learning Model](Notebooks/Insight_ensemble.ipynb)
   - [resampling notebook](Notebooks/Insight_resampling.ipynb)
   - [Neural Network Machine Learning Model](Notebooks/InsightNeural.ipynb)
+  - [KFold notebook](Notebooks/Insight_ensemble_KFold.ipynb)
 
 This is how we split the Data using the train_test_split method ![image](https://user-images.githubusercontent.com/91682586/159809128-c81e74f5-5687-4ddd-a23f-1455d21b5fc2.png)
 
