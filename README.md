@@ -161,7 +161,8 @@ The initial steps taken after pulling the Travel.csv file into a dataframe to ge
 
 
 
-
+Link to Dashboard
+[Dashboard](https://public.tableau.com/app/profile/trevor.sreekrisenjee/viz/InsightsontheBeach/Dashboard1?publish=yes)
 
 
 
