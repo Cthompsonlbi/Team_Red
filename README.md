@@ -159,7 +159,7 @@ The initial steps taken after pulling the Travel.csv file into a dataframe to ge
 
 ![image](https://user-images.githubusercontent.com/91682586/159763571-9262e494-9fd7-4114-9807-800b297dd0dd.png)
 
-##Tableau Dashboard
+### Tableau Dashboard
 
 [Link to Dashboard](https://public.tableau.com/app/profile/trevor.sreekrisenjee/viz/InsightsontheBeachUpdatedDash/ConsumerDash?publish=yes)
 
