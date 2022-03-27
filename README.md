@@ -159,11 +159,15 @@ The initial steps taken after pulling the Travel.csv file into a dataframe to ge
 
 ![image](https://user-images.githubusercontent.com/91682586/159763571-9262e494-9fd7-4114-9807-800b297dd0dd.png)
 
-
+##Tableau Dashboard
 
 [Link to Dashboard](https://public.tableau.com/app/profile/trevor.sreekrisenjee/viz/InsightsontheBeachUpdatedDash/ConsumerDash?publish=yes)
 
+In this dashboard we were able to modify the data a bit more to allow the vizualizations to be more user friendly. 
 
+* By creating aliases, the ProdTaken column was able to Transform from 0's and 1's to 'No' and 'Yes'. 
+* Through the Grouping function we were able to simplify the MonthlyIncome and Age fields by adding them to buckets based on their respective increments.
+* Our plan for this dashboard is to create specialized and informative graphs that can tell a story and lead us to the final answer of "Who will buy our vacation packages?". By creating multiple Story's we can flip through the different vizualizations that progress through a story to get us to our answer!
 
 
 
