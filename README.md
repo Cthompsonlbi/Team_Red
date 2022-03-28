@@ -98,9 +98,9 @@ The updated Machine Learning models can be found here:
   - [revised ensemble Machine Learning Model](Notebooks/Insight_ensemble.ipynb)
   - [resampling notebook](Notebooks/Insight_resampling.ipynb)
   - [Neural Network Machine Learning Model](Notebooks/InsightNeural.ipynb)
-  - [KFold notebook](Notebooks/Insight_ensemble_KFold.ipynb)
+  - [KFold notebook](Notebooks/InsightUnsupervised.ipynb)
 
-Per Instructor Request, attempted ##Unsupervised Learning## Machine Learning
+Per Instructor Request, attempted **Unsupervised Learning** Machine Learning
 
   - [Unsupervised notebook](Notebooks/Insight_ensemble_KFold.ipynb)
 
