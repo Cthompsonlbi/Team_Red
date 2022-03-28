@@ -100,7 +100,7 @@ The updated Machine Learning models can be found here:
   - [Neural Network Machine Learning Model](Notebooks/InsightNeural.ipynb)
   - [KFold notebook](Notebooks/InsightUnsupervised.ipynb)
 
-Per Instructor Request, attempted #Unsupervised Learning# Machine Learning
+Per Instructor Request, attempted **Unsupervised Learning** Machine Learning
 
   - [Unsupervised notebook](Notebooks/Insight_ensemble_KFold.ipynb)
 
