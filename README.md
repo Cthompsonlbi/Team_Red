@@ -6,7 +6,7 @@ Module 20 Challenge
 ![image](https://user-images.githubusercontent.com/91682586/160031253-634e2ae7-d2bd-4073-b9fe-a9d076299eca.png)
 
 ---
-#### Communication Plan			
+#### Communication Plan	TJ will delete.		
 			
 
  - Project Plan for the week:	
