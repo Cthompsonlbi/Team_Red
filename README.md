@@ -3,7 +3,7 @@ Module 20 Challenge
 
 ### Roles
 
-![image](https://user-images.githubusercontent.com/91682586/160031253-634e2ae7-d2bd-4073-b9fe-a9d076299eca.png)
+![image](https://user-images.githubusercontent.com/91682586/159757962-0591adf2-d16c-4401-a41f-60282c9a7377.png)
 
 ---
 #### Communication Plan			
@@ -98,11 +98,7 @@ The updated Machine Learning models can be found here:
   - [revised ensemble Machine Learning Model](Notebooks/Insight_ensemble.ipynb)
   - [resampling notebook](Notebooks/Insight_resampling.ipynb)
   - [Neural Network Machine Learning Model](Notebooks/InsightNeural.ipynb)
-  - [KFold notebook](Notebooks/InsightUnsupervised.ipynb)
-
-Per Instructor Request, attempted **Unsupervised Learning** Machine Learning
-
-  - [Unsupervised notebook](Notebooks/Insight_ensemble_KFold.ipynb)
+  - [KFold notebook](Notebooks/Insight_ensemble_KFold.ipynb)
 
 This is how we split the Data using the train_test_split method ![image](https://user-images.githubusercontent.com/91682586/159809128-c81e74f5-5687-4ddd-a23f-1455d21b5fc2.png)
 
@@ -163,15 +159,11 @@ The initial steps taken after pulling the Travel.csv file into a dataframe to ge
 
 ![image](https://user-images.githubusercontent.com/91682586/159763571-9262e494-9fd7-4114-9807-800b297dd0dd.png)
 
-### Tableau Dashboard
 
-[Link to Dashboard](https://public.tableau.com/app/profile/trevor.sreekrisenjee/viz/InsightsontheBeach3309PM/ConsumerDash?publish=yes)
+Test push to Main 3
 
-In this dashboard we were able to modify the data a bit more to allow the vizualizations to be more user friendly. 
 
-* By creating aliases, the ProdTaken column was able to Transform from 0's and 1's to 'No' and 'Yes'. 
-* Through the Grouping function we were able to simplify the MonthlyIncome and Age fields by adding them to buckets based on their respective increments.
-* Our plan for this dashboard is to create specialized and informative graphs that can tell a story and lead us to the final answer of "Who will buy our vacation packages?". By creating multiple Story's we can flip through the different vizualizations that progress through a story to get us to our answer!
+
 
 
 
