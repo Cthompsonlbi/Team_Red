@@ -87,13 +87,18 @@ There are currently 5 types of packages the company is offering - Basic, Standar
 ##### **Update**:
 We found that our dataset is very unbalanced (ProdTaken yes/no). Therefore we have adjusted our approach.
 In addition to our regular Decision Tree and RandomForest Classifier we explored a BalancedRandomForest as well as Over and Undersampling in the code.
-We also added a Neural Network Model to the Mix. We will try to use the K-fold method for cross validation and to help make a final decision on what model we will use.
+We also added a Neural Network Model to the Mix. We used the K-fold Random Forest Classifier to help make a final decision on what model we will use.
+
+features by importance:
+![image](https://user-images.githubusercontent.com/91682586/159939057-ba9491c7-6fa3-4787-8f5d-0313e93ea2d1.png)
+
 
 The updated Machine Learning models can be found here:
 
   - [revised ensemble Machine Learning Model](Notebooks/Insight_ensemble.ipynb)
   - [resampling notebook](Notebooks/Insight_resampling.ipynb)
   - [Neural Network Machine Learning Model](Notebooks/InsightNeural.ipynb)
+  - [KFold notebook](Notebooks/Insight_ensemble_KFold.ipynb)
 
 This is how we split the Data using the train_test_split method ![image](https://user-images.githubusercontent.com/91682586/159809128-c81e74f5-5687-4ddd-a23f-1455d21b5fc2.png)
 
