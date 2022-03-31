@@ -161,7 +161,7 @@ The initial steps taken after pulling the Travel.csv file into a dataframe to ge
 
 ### Tableau Dashboard
 
-[Link to Dashboard](https://public.tableau.com/app/profile/trevor.sreekrisenjee/viz/InsightsontheBeachUpdatedDash/ConsumerDash?publish=yes)
+[Link to Dashboard](https://public.tableau.com/app/profile/trevor.sreekrisenjee/viz/InsightsontheBeach3309PM/ConsumerDash?publish=yes)
 
 In this dashboard we were able to modify the data a bit more to allow the vizualizations to be more user friendly. 
 
