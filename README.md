@@ -171,7 +171,7 @@ In this dashboard we were able to modify the data a bit more to allow the vizual
 * Our plan for this dashboard is to create specialized and informative graphs that can tell a story and lead us to the final answer of "Who will buy our vacation packages?". By creating multiple Story's we can flip through the different vizualizations that progress through a story to get us to our answer!
 
 
-
+link here
 
 
 
