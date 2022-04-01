@@ -173,6 +173,7 @@ In this dashboard we were able to modify the data a bit more to allow the vizual
 
 ![image](https://user-images.githubusercontent.com/91682586/161326703-70b81c2c-9ca3-440c-8a32-ce860bc131f6.png)
 
+![image](https://user-images.githubusercontent.com/91682586/161326979-69aefb66-01b0-40fb-b71b-d6e484ca0392.png)
 
 
 
