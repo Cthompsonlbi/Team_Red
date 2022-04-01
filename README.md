@@ -6,17 +6,6 @@ Module 20 Challenge
 ![image](https://user-images.githubusercontent.com/91682586/159757962-0591adf2-d16c-4401-a41f-60282c9a7377.png)
 
 ---
-#### Communication Plan	TJ will delete.		
-			
-
- - Project Plan for the week:	
-  	* Every Tuesday 6:30 pm - 7:00 pm via Zoom call
- - Project update 	
- 	* Every Thursday 6:30 pm- 7:00 pm via Zoom call
- - Review and work together 	
- 	* Every Friday 6:00 pm-6:30 pm via Zoom Call
- - Review and finalize together before submission 	
- 	* Every Saturday 11:00 pm - 12:00 pm via Zoom Call
 
 ---
 #### Technologies used for this Project:
@@ -32,7 +21,13 @@ Module 20 Challenge
 
 We will analyze a Holiday package Dataset. The purpose of this analysis is to look at past events and use Data analysis and Machine learning to give business recommendations to our client on which demographic would most likely purchase a newly introduced vacation package.
 
+Update2: the slide show can be watched in Canva as well.
+
+[Link to Canva Dashboard] https://www.canva.com/design/DAE60KhpbHM/nm_37_tdb7AGrxVtZRkofA/view?utm_content=DAE60KhpbHM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+Update: additional slides were added and existing updated to align with model changes 
 Link to Google Slideshow: https://docs.google.com/presentation/d/1I5h9CG6jF9-2hxQ4abF_KSPI4CQ6rH8Pa7tIWhde0Mo/edit?usp=sharing
+NEEDS UPDATE
 
 ---
 #### Reason for Selection: 
@@ -171,7 +166,7 @@ In this dashboard we were able to modify the data a bit more to allow the vizual
 * Our plan for this dashboard is to create specialized and informative graphs that can tell a story and lead us to the final answer of "Who will buy our vacation packages?". By creating multiple Story's we can flip through the different vizualizations that progress through a story to get us to our answer!
 
 
-
+link here
 
 
 
