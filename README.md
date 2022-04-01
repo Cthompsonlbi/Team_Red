@@ -167,7 +167,7 @@ In this dashboard we were able to modify the data a bit more to allow the vizual
 
 ![image](https://user-images.githubusercontent.com/91682586/161326165-601d8a0f-4c19-4670-a115-657d794eb461.png)
 
-By creating multiple Stories we can flip through the different visualizations that progress through a story to get us to our answers!
+ * By creating multiple Stories we can flip through the different visualizations that progress through a story to get us to our answers!
 
 ![image](https://user-images.githubusercontent.com/91682586/161326282-0e077813-f3b3-48e9-9430-f08164ec0987.png)
 
