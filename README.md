@@ -163,10 +163,15 @@ In this dashboard we were able to modify the data a bit more to allow the vizual
 
 * By creating aliases, the ProdTaken column was able to Transform from 0's and 1's to 'No' and 'Yes'. 
 * Through the Grouping function we were able to simplify the MonthlyIncome and Age fields by adding them to buckets based on their respective increments.
-* Our plan for this dashboard is to create specialized and informative graphs that can tell a story and lead us to the final answer of "Who will buy our vacation packages?". By creating multiple Story's we can flip through the different vizualizations that progress through a story to get us to our answer!
+* Our plan for this dashboard is to create specialized and informative graphs that can tell a story and lead us to the final answer of "Who will buy our vacation packages?". 
 
+![image](https://user-images.githubusercontent.com/91682586/161326165-601d8a0f-4c19-4670-a115-657d794eb461.png)
 
-link here
+By creating multiple Stories we can flip through the different visualizations that progress through a story to get us to our answers!
+
+![image](https://user-images.githubusercontent.com/91682586/161326282-0e077813-f3b3-48e9-9430-f08164ec0987.png)
+
+![image](https://user-images.githubusercontent.com/91682586/161326703-70b81c2c-9ca3-440c-8a32-ce860bc131f6.png)
 
 
 
