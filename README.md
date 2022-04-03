@@ -58,6 +58,8 @@ Description of preliminary feature engineering and preliminary feature selection
 ![13](https://user-images.githubusercontent.com/91682586/159800176-c50087d8-241a-4be0-b5ef-630f79057ff4.png)
 
 
+##### UPDATE: Heroku App  https://teamredpetpals.herokuapp.com/
+
 #### Update: We have further integrated the SQL database. The dataset is now connected to not only read from the DB, but also write the result of the EDA (clean file) back into our Database. 
 
 
