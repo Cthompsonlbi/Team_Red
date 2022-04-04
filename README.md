@@ -110,13 +110,10 @@ This is how we split the Data using the train_test_split method ![image](https:/
 --- 
 We decided to use a Supervised Learning Model, because our data has labeled input and output data.
 It has a target column and features.
-As a model we use a DecisionTree classifier and investigate further for class imbalances.
+As a model we used an Extreme Gradient Boost Model and investigate further for class imbalances.
 As a second validation we will be using a RandomForest classifier model.
-A mockup of our initial Machine learning model can be found here: 
-[Initial Machine Learning Mockup](Notebooks/Mock_up_Machine_Learning_Modelwith_SQL_connect.ipynb)
 
-The Machine learning model will pull data from the PG Admin database using Heroku.
-This will be set up later. Currently we have it connected through sqlalchemy to the local machine.
+The Machine learning model will pull data from the PG Admin database which is connected through sqlalchemy to the local machine.
 
 ---
 ---
