@@ -106,7 +106,6 @@ The updated Machine Learning models can be found here:
   - [Insight EDA File](Notebooks/InsightEDA.ipynb)
   - [Insight Unsupervised File](Notebooks/InsightUnsupervised.ipynb)
   - [Machine Learning Master File](Notebooks/ML_Master.ipynb)
-  - [Archive Folder to Access Other ML Models](Team_Red/Notebooks/Archived/)
 
 This is how we split the Data using the train_test_split method ![image](https://user-images.githubusercontent.com/91682586/159809128-c81e74f5-5687-4ddd-a23f-1455d21b5fc2.png)
 
