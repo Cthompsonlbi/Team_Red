@@ -50,9 +50,10 @@ Description of preliminary feature engineering and preliminary feature selection
 
 ![3](https://user-images.githubusercontent.com/91682586/159799327-5b62152f-a315-4818-a306-0a7ef502ec29.png)
 
-![12](https://user-images.githubusercontent.com/91682586/159800113-68fecc39-106a-4d56-9aaa-62a265695b3b.png)
-
 ![balanced_random_ss](https://user-images.githubusercontent.com/92830382/161458358-1034062a-554c-4aeb-87f8-8717e76265a4.png)
+
+![XGboost_ss](https://user-images.githubusercontent.com/92830382/161460256-a951ef8b-25d1-4d84-9f13-9f997acccc37.png)
+
 
 
 
