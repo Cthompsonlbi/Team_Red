@@ -84,10 +84,8 @@ There are currently 5 types of packages the company is offering - Basic, Standar
 
 We added some visuals to the machine learning part of our presentation.
 
-![12](https://user-images.githubusercontent.com/91682586/161406783-4c3597f9-6243-4cbf-bf23-939836688dd6.png)
-![13](https://user-images.githubusercontent.com/91682586/161406787-86ab5b3d-c6f0-4d01-96af-8c8867211b03.png)
-![14](https://user-images.githubusercontent.com/91682586/161406788-2fab1654-78cb-4f50-9bfe-689d12b7612a.png)
-![15](https://user-images.githubusercontent.com/91682586/161406791-b100f332-b8b9-47c3-b6f7-d1d2c9ffddf8.png)
+
+![cm_ss](https://user-images.githubusercontent.com/92830382/161461080-e2cacb1f-19fb-4659-aabc-aadf6cf48a61.png)
 
 
 
