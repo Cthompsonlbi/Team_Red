@@ -103,10 +103,10 @@ features by importance:
 
 The updated Machine Learning models can be found here:
 
-  - [revised ensemble Machine Learning Model](Notebooks/Insight_ensemble.ipynb)
-  - [resampling notebook](Notebooks/Insight_resampling.ipynb)
-  - [Neural Network Machine Learning Model](Notebooks/InsightNeural.ipynb)
-  - [KFold notebook](Notebooks/Insight_ensemble_KFold.ipynb)
+  - [Insight EDA File](Notebooks/InsightEDA.ipynb)
+  - [Insight Unsupervised File](Notebooks/InsightUnsupervised.ipynb)
+  - [Machine Learning Master File](Notebooks/ML_Master.ipynb)
+  - [Archive Folder to Access Other ML Models](Team_Red/Notebooks/Archived/)
 
 This is how we split the Data using the train_test_split method ![image](https://user-images.githubusercontent.com/91682586/159809128-c81e74f5-5687-4ddd-a23f-1455d21b5fc2.png)
 
