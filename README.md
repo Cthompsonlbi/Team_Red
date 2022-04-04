@@ -52,7 +52,8 @@ Description of preliminary feature engineering and preliminary feature selection
 
 ![12](https://user-images.githubusercontent.com/91682586/159800113-68fecc39-106a-4d56-9aaa-62a265695b3b.png)
 
-![13](https://user-images.githubusercontent.com/91682586/159800176-c50087d8-241a-4be0-b5ef-630f79057ff4.png)
+![balanced_random_ss](https://user-images.githubusercontent.com/92830382/161458358-1034062a-554c-4aeb-87f8-8717e76265a4.png)
+
 
 
 ##### UPDATE: Heroku App  https://teamredpetpals.herokuapp.com/
