@@ -27,7 +27,7 @@ Our client would like to answer at least one of these questions:
 ### Roles
 
 REPLACE WITH ("Roles.png")
-![image](https://user-images.githubusercontent.com/91682586/159757962-0591adf2-d16c-4401-a41f-60282c9a7377.png)
+
 
 ---
 ## Dataset
