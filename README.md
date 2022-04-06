@@ -193,7 +193,7 @@ The final notebooks that display outputs can be found here:
 ---
 ---
 
-#### Heroku App  https://teamredpetpals.herokuapp.com/
+### WebApp Deployment  https://cthompsonlbi.github.io/TeamRedInsight/
 
 The Machine learning model will pull data from the pgAdmin database using Heroku.
 This will be set up later. Currently we have it connected through sqlalchemy to the local machine.
