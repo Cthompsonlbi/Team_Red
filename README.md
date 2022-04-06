@@ -228,7 +228,9 @@ In this dashboard we were able to modify the data a bit more to allow the vizual
 
 models suggests..
 
-tableau suggests..
+Tableau suggests younger consumers are more likely to purchase a vacation package than their older counter parts.  18-24 year olds have a conversion rate of 45%.  Meaning that 45% of the 18-24 years that are pitched a vacation package by a sales person are likely to purchase. However, this age group is severely underserved as it represents only 5.6% of all products pitched.  25- 1 year olds have a conversion rate of 24.78% and make up about 21.4% of the dataset of products pitched.  The remaining age groups only had a conversion rate of mid to low teens. Another take away from the tableau analysis is the monthly income of potential customers that had the highest conversion rate was from $16k-$23k.  The percentage of conversion for this monthly income range was in the mid 20's.  While the remaining monthly income ranges were significantly lower.  Also, the data suggests that the most likely purchased vacation packages would be the Basic, Standard, and Deluxe packages which are the low to mid cost vacation packages and not the higher cost packages like the Super Deluxe and King packages.
+
+With this in mind, the tableau analysis would suggest that the client should develop a marketing strategy that focuses on economical vacation packages for 18 to 31 year olds that have a monthly income in the range of $16k-$23K.
 
 ultimately suggests..
 
