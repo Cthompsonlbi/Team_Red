@@ -190,8 +190,6 @@ The final notebooks that display outputs can be found here:
 
 ---
 ---
----
----
 
 ### WebApp Deployment  
 
@@ -199,8 +197,6 @@ https://cthompsonlbi.github.io/TeamRedInsight/
 
 A Web application was developed to allow the user to interact with the data by embedding the Tableau visualization file inside the deployed .html file.  The app allows the user to click through slides and click on data with in the slide to modify data focus.  Also there is a drop down menu available that will the viewer to select a team member and return additional information about the selected team member.
 
----
----
 ---
 ---
 ## Tableau Analysis
