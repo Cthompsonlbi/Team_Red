@@ -26,8 +26,8 @@ Our client would like to answer at least one of these questions:
 
 ### Roles
 
-REPLACE WITH ("Roles.png")
-![image](https://user-images.githubusercontent.com/91682586/159757962-0591adf2-d16c-4401-a41f-60282c9a7377.png)
+![Roles](https://user-images.githubusercontent.com/92493572/162015925-6147e217-a483-47cc-a327-28f41aac8568.png)
+
 
 ---
 ## Dataset
@@ -138,7 +138,7 @@ K-Fold cross validation is a technique used to ensure each model is tested again
 
 Visualization of the K-Fold process:
 
-INSERT IMAGE ("kfold_diagram.png")
+![kfold_cv_diagram](https://user-images.githubusercontent.com/92493572/162016022-8621841a-460b-4a29-a9a6-e6754f1cbeeb.png)
 
 For our models, we used both five and 10-fold cross validation to be safe - although this made the code more cumbersome to run (the ML_Master file takes over five hours to run). We passed a series of parameters through the models, adjusting one parameter at a time using for-loops. Within each model, it would use the K-Fold cross validation method, running five and 10 more times each. For example, the extreme gradient boost model iterates 2,592 times in total; one would think that it created and tested 2,592 models, but it actually tested five models per iteration for the first half, and 10 models per iteration for the last half - totalling 19,440 models.
 
@@ -146,11 +146,11 @@ A dictionary to store the results was created in the beginning of the code, whic
 
 The block of code containing the extreme gradient boost K-Fold cross validation is provided below:
 
-INSERT IMAGE ("XGBoost_cv.png")
+![XGBoost_cv](https://user-images.githubusercontent.com/92493572/162016067-a53cdf64-e658-4120-886c-08b508091d03.PNG)
 
 To run the final model, we called the dictionary for each of the adjusted parameters. This can be observed within the XGBClassifier, as many parameters are set equal to their respective keys in the dictionary.
 
-INSERT IMAGE ("XGBoost_Opt")
+![XGBoost_Opt](https://user-images.githubusercontent.com/92493572/162016088-27860d71-0070-4fad-ba57-69de5354379e.PNG)
 
 
 ### Machine Learning Model Results
@@ -164,8 +164,8 @@ After model optimization was completed, the first measurement of success was the
 
 The classification reports, as well as the confusion matrices, combined into two images are presented below:
 
-INSERT ("total_classes.png")
-INSERT ("total_cm.png")
+![total_classes](https://user-images.githubusercontent.com/92493572/162016125-460c0eef-7260-4c69-ae4b-9abb74f8ea74.png)
+![total_cm](https://user-images.githubusercontent.com/92493572/162016134-7cfecbae-2358-4e4f-9f6a-2c083b6fe3c1.png)
 
 The two models with the best performance tailored to our team's objective are provided in the next image. These models were chosen not entirely based off of their accuracy scores, but by their precision and f1 scores. What is most important to our client is acquiring new customers. If we can minimize time lost from seeking people out who will not buy our product, our client can take advantage of higher conversion rates. A false negative, also known as a type 2 error, will cause our client to miss out on a potential customer. A false positive, also known as a type 1 error, will cause our staff to waste time speaking with customers who will likely deny the product, resulting in wasted time without a sale. Ideally, the models minimize both, but that was not the case. 
 
@@ -177,7 +177,7 @@ REPLACE IMAGE with updated GOOGLE SLIDE
 
 In addition, a chart containing the most important features, according to our oversampled random forest classifier, is provided below:
 
-INSERT ("brfr_fi.png")
+![brfr_fi](https://user-images.githubusercontent.com/92493572/162016173-f5b3cf68-5e21-472e-96b3-a9d758b14ba4.PNG)
 
 The top three features, age, monthly income, and duration of pitch, were the most weighted variables in the mix when determining if somebody purchased a getaway package. This is reflected in the charting analysis using Tableau, to be discussed later. The more accurate the machine learning model, the stronger the support provided by feature importance.
 
