@@ -1,146 +1,102 @@
-# Team_Red
-Module 20 Challenge
+# Team_Red -- Module 20 Challenge
 
-### Roles
+## Topic
 
-![image](https://user-images.githubusercontent.com/91682586/159757962-0591adf2-d16c-4401-a41f-60282c9a7377.png)
+We will analyze a Holiday package dataset to identify key market segments, and to manufacture a high level strategy to connect to target groups to sell them the getaway package at a higher success rate.
 
----
-
----
-#### Technologies used for this Project:
-
-- Python
-- Pandas
-- Sklearn
-- Tableau
-- PostgreSQL
-
----
-### Topic of our Project
-
-We will analyze a Holiday package Dataset. The purpose of this analysis is to look at past events and use Data analysis and Machine learning to give business recommendations to our client on which demographic would most likely purchase a newly introduced vacation package.
+If you would like to access the slideshow for a more brief report, you can do so [here](https://docs.google.com/presentation/d/1I5h9CG6jF9-2hxQ4abF_KSPI4CQ6rH8Pa7tIWhde0Mo/edit?usp=sharing)
 
 
-Update2: additional slides were added and existing updated to align with model changes 
-Link to Google Slideshow: https://docs.google.com/presentation/d/1I5h9CG6jF9-2hxQ4abF_KSPI4CQ6rH8Pa7tIWhde0Mo/edit?usp=sharing
+### Reason for Selection: 
 
-
----
-#### Reason for Selection: 
-
--	One of our team members is familiar with the industry and has a passion for analyzing this specific topic.
+-	One of our team members is familiar with the hospitality industry and has a passion for analyzing this specific topic.
 -	The Dataset is relevant to our questions, has enough data points and features and could be easily adapted to an industry dataset.
--	The Data seems, at first glance, to be quite clean.
+-	The Data is mostly intact.
 -	It is publicly available and updated monthly. 
 
----
-#### Questions we Hope to Answer:
 
-Our client is introducing a new vacation package. They would like to answer at least one of these questions:
+### Questions We Hope to Answer:
+
+Our client would like to answer at least one of these questions:
 
 -	Can we predict what the ideal target customer would look like?
 -	What would be a good marketing strategy?
 -	What variables have the most influence on the purchase decision?
 
+
+### Roles
+
+REPLACE WITH ("Roles.png")
+![image](https://user-images.githubusercontent.com/91682586/159757962-0591adf2-d16c-4401-a41f-60282c9a7377.png)
+
 ---
-#### Process of Data Analysis and Evaluation
+## Dataset
 
-Description of preliminary feature engineering and preliminary feature selection, including decision-making process
-
-![3](https://user-images.githubusercontent.com/91682586/159799327-5b62152f-a315-4818-a306-0a7ef502ec29.png)
-
-![balanced_random_ss](https://user-images.githubusercontent.com/92830382/161458358-1034062a-554c-4aeb-87f8-8717e76265a4.png)
-
-![XGboost_ss](https://user-images.githubusercontent.com/92830382/161460256-a951ef8b-25d1-4d84-9f13-9f997acccc37.png)
+Travel.csv from the Kaggle website - [here](https://www.kaggle.com/susant4learning/holiday-package-purchase-prediction)
 
 
+Travel.csv from our repo - [here](https://github.com/Cthompsonlbi/Team_Red/blob/main/Resources/Travel.csv)
+
+The dataset contains 20 columns and 4888 rows, which includes customer and marketing information, as well as a target column that shows if the vacation package was purchased or not.
+
+There are currently 5 types of packages the company is offering:
+
+- Basic
+- Standard
+- Deluxe
+- Super Deluxe
+- King
+
+---
+## Technologies Used:
+
+Language:
+
+	- Python
+
+Programs:
+
+	- Jupyter Notebook
+
+	- pgAdmin 4 (PostgreSQL)
+
+	- Tableau
+
+Major Libraries:
+
+	- Pandas
+
+	- sqlalchemy
+
+	- Scikit-learn
+
+	- Imblearn
+ 
+ A full list of libraries and environmental requirements can be found [here](https://github.com/Cthompsonlbi/Team_Red/requirements.txt)
 
 
-##### UPDATE: Heroku App  https://teamredpetpals.herokuapp.com/
+---
+## Process of Data Analysis and Evaluation
 
-#### Update: We have further integrated the SQL database. The dataset is now connected to not only read from the DB, but also write the result of the EDA (clean file) back into our Database. 
-
-
+The data file was loaded into the EDA notebook, where it was cleaned. From there, it was uploaded to the SQL database as a new table. The new table would then be called for the machine learning portion of the analysis, and thus needed to be preprocessed (scaled, binned, encoded, resampled). Due to the imbalanced nature of the data (19% of products pitched were purchased), we trained our models with both oversampled and original training sets to compare results. In total, we were left with four models. Once preprocessed, K-Fold cross validation was performed on each model to determine the optimal parameters. Classification reports, confusion matrices, and accuracy scores were used as metrics to determine a model's performance. Finally, feature importance was pulled for later analysis. A general flow chart of the described process can be found below.
 
 ![HighlevelProjectFlow](Images/HighlevelProjectFlow.PNG)
 
----
-#### Dataset
 
-Travel.csv from the Kaggle website
-https://www.kaggle.com/susant4learning/holiday-package-purchase-prediction
+### Database
 
-Click here to get directly to the CSV file:  https://github.com/Cthompsonlbi/Team_Red/blob/main/Resources/Travel.csv
+We use pgAdmin as our SQL database. The data was separated into two tables: a customer info table and a marketing info table. They share customer ID, which serves as the primary key, or unique identifier.
 
-The dataset contains 20 columns and 4888 rows.
-It includes Customer and Marketing information and a column that shows if the vacation package was purchased or not.
-There are currently 5 types of packages the company is offering - Basic, Standard, Deluxe, Super Deluxe, King.
-
----
-#### Machine learning Model
-
-##### **Update**:
-
-We added some visuals to the machine learning part of our presentation.
-
-
-![cm_ss](https://user-images.githubusercontent.com/92830382/161461080-e2cacb1f-19fb-4659-aabc-aadf6cf48a61.png)
-
-
-
-
-##### **Update**:
-We found that our dataset is very unbalanced (ProdTaken yes/no). Therefore we have adjusted our approach.
-In addition to our regular Decision Tree and RandomForest Classifier we explored a BalancedRandomForest as well as Over and Undersampling in the code.
-We also added a Neural Network Model to the Mix. We used the K-fold Random Forest Classifier to help make a final decision on what model we will use.
-
-features by importance:
-![image](https://user-images.githubusercontent.com/91682586/159939057-ba9491c7-6fa3-4787-8f5d-0313e93ea2d1.png)
-
-
-The updated Machine Learning models can be found here:
-
-  - [Insight EDA File](Notebooks/InsightEDA.ipynb)
-  - [Insight Unsupervised File](Notebooks/InsightUnsupervised.ipynb)
-  - [Machine Learning Master File](Notebooks/ML_Master.ipynb)
-
-This is how we split the Data using the train_test_split method ![image](https://user-images.githubusercontent.com/91682586/159809128-c81e74f5-5687-4ddd-a23f-1455d21b5fc2.png)
-
---- 
-We decided to use a Supervised Learning Model, because our data has labeled input and output data.
-It has a target column and features.
-As a model we use a DecisionTree classifier and investigate further for class imbalances.
-As a second validation we will be using a RandomForest classifier model.
-A mockup of our initial Machine learning model can be found here: 
-[Initial Machine Learning Mockup](Notebooks/Mock_up_Machine_Learning_Modelwith_SQL_connect.ipynb)
-
-The Machine learning model will pull data from the PG Admin database using Heroku.
-This will be set up later. Currently we have it connected through sqlalchemy to the local machine.
-
----
----
-#### Mockup Database
-
-We use PG Admin as our Database.
-We have seperated the Dataset into two tables a Customer table and a Marketing table.
-The 2 tables are connected through the Customer ID.
-
-Here is a preliminary ERD:
-
-As you can see, we have setup the tables based on the different information pertaining to both the consumer and the marketing information.
-We have made the Primary Key CustomerID as this is the identifier for each piece of information per each consumer and their relative marketing info.
-
+Here is a snapshot of the ERD:
 
 ![QuickDBD-export](https://user-images.githubusercontent.com/92830382/159591417-936321a5-d646-4f35-9745-389ab3cc44a4.png)
 
+When the clean data is sent back into the database, it is loaded into a single, new table, which is later used for machine learning and Tableau.
 
----
-#### Exploratory Data Analysis
 
-Quick link to our EDA Jupyter notebook file that contains code for our work with regards to cleaning the Travel dataset can be found below:
+### Exploratory Data Analysis
 
-[Travel Dataset Initial Clean](Notebooks/InsightEDA.ipynb)
+Quick link to our EDA Jupyter notebook file that contains code for our work with regards to cleaning the Travel dataset can be found [here](Notebooks/InsightEDA.ipynb).
 
 The initial steps taken after pulling the Travel.csv file into a dataframe to get a better understanding of the data that we are working with were as follows:	
 
@@ -164,10 +120,91 @@ The initial steps taken after pulling the Travel.csv file into a dataframe to ge
 
 ![image](https://user-images.githubusercontent.com/91682586/159763571-9262e494-9fd7-4114-9807-800b297dd0dd.png)
 
----
-### Tableau Dashboard
 
-[Link to Dashboard]https://public.tableau.com/app/profile/cathleen.mai/viz/InsightsontheBeach428am/Story1?publish=yes
+### Machine Learning Model
+
+Initially, a decision tree and logisitic regression model were used as predictive models, but were eventually replaced with more complex models such as: random forest, adaptive boost, extreme gradient boost, and neural network. Ultimately, the group decided on utilizing a random forest and an extreme gradient boost, as they not only proved to be highly effective, but were capable of providing relational insight into the data; this was especially important as the data was fairly diverse between categorical and continuous data.
+
+Below are slides individually describing the functionality and utility of both the random forest and extreme gradient boost ('XGBoost') models:
+
+![balanced_random_ss](https://user-images.githubusercontent.com/92830382/161458358-1034062a-554c-4aeb-87f8-8717e76265a4.png)
+
+![XGboost_ss](https://user-images.githubusercontent.com/92830382/161460256-a951ef8b-25d1-4d84-9f13-9f997acccc37.png)
+
+
+### K-Fold Cross Validation
+
+K-Fold cross validation is a technique used to ensure each model is tested against multiple subsets, called *folds*, of the data to average the accuracy scores. In a five-fold cross validation, the data is split into five folds, where the first four are the training sets, and the last is the validation set. The model is tested against the validation set for an accuracy score, the same way we use training and testing splits. The model then uses the 2nd to last fold of data as the validation set and repeats the process until each subset has been used as the validation once. The accuracy scores from each fold are then averaged.
+
+Visualization of the K-Fold process:
+
+INSERT IMAGE ("kfold_diagram.png")
+
+For our models, we used both five and 10-fold cross validation to be safe - although this made the code more cumbersome to run (the ML_Master file takes over five hours to run). We passed a series of parameters through the models, adjusting one parameter at a time using for-loops. Within each model, it would use the K-Fold cross validation method, running five and 10 more times each. For example, the extreme gradient boost model iterates 2,592 times in total; one would think that it created and tested 2,592 models, but it actually tested five models per iteration for the first half, and 10 models per iteration for the last half - totalling 19,440 models.
+
+A dictionary to store the results was created in the beginning of the code, which would contain the best set of parameters for the extreme gradient boost model. While the cross validation was run, if a new highest accuracy was discovered, all current parameters would replace the previous best parameters within this dictionary.
+
+The block of code containing the extreme gradient boost K-Fold cross validation is provided below:
+
+INSERT IMAGE ("XGBoost_cv.png")
+
+To run the final model, we called the dictionary for each of the adjusted parameters. This can be observed within the XGBClassifier, as many parameters are set equal to their respective keys in the dictionary.
+
+INSERT IMAGE ("XGBoost_Opt")
+
+
+### Machine Learning Model Results
+
+After model optimization was completed, the first measurement of success was the accuracy score, which compares the predicted targets versus actual targets. The following are the accuracy scores for each model:
+
+- Unsampled Balanced Random Forest:			87.98%
+- Oversampled Balanced Random Forest:		85.75%
+- Unsampled XGBoost:						93.42%
+- Oversampled XGBoost:                  	86.64%
+
+The classification reports, as well as the confusion matrices, combined into two images are presented below:
+
+INSERT ("total_classes.png")
+INSERT ("total_cm.png")
+
+The two models with the best performance tailored to our team's objective are provided in the next image. These models were chosen not entirely based off of their accuracy scores, but by their precision and f1 scores. What is most important to our client is acquiring new customers. If we can minimize time lost from seeking people out who will not buy our product, our client can take advantage of higher conversion rates. A false negative, also known as a type 2 error, will cause our client to miss out on a potential customer. A false positive, also known as a type 1 error, will cause our staff to waste time speaking with customers who will likely deny the product, resulting in wasted time without a sale. Ideally, the models minimize both, but that was not the case. 
+
+Below, are the two best performing models when considering our client's objective.
+
+REPLACE IMAGE with updated GOOGLE SLIDE
+![cm_ss](https://user-images.githubusercontent.com/92830382/161461080-e2cacb1f-19fb-4659-aabc-aadf6cf48a61.png)
+
+
+In addition, a chart containing the most important features, according to our oversampled random forest classifier, is provided below:
+
+INSERT ("brfr_fi.png")
+
+The top three features, age, monthly income, and duration of pitch, were the most weighted variables in the mix when determining if somebody purchased a getaway package. This is reflected in the charting analysis using Tableau, to be discussed later. The more accurate the machine learning model, the stronger the support provided by feature importance.
+
+The final notebooks that display outputs can be found here:
+
+  - [Insight EDA File](Notebooks/InsightEDA.ipynb)
+  - [Insight Unsupervised File](Notebooks/InsightUnsupervised.ipynb)
+  - [Machine Learning Master File](Notebooks/ML_Master.ipynb)
+
+
+---
+---
+---
+---
+
+#### Heroku App  https://teamredpetpals.herokuapp.com/
+
+The Machine learning model will pull data from the pgAdmin database using Heroku.
+This will be set up later. Currently we have it connected through sqlalchemy to the local machine.
+
+---
+---
+---
+---
+## Tableau Analysis
+
+[Link to Dashboard](https://public.tableau.com/app/profile/cathleen.mai/viz/InsightsontheBeach428am/Story1?publish=yes)
 
 In this dashboard we were able to modify the data a bit more to allow the vizualizations to be more user friendly. 
 
@@ -186,4 +223,17 @@ In this dashboard we were able to modify the data a bit more to allow the vizual
 ![image](https://user-images.githubusercontent.com/91682586/161326979-69aefb66-01b0-40fb-b71b-d6e484ca0392.png)
 
 
+## Summary
 
+models suggests..
+
+tableau suggests..
+
+ultimately suggests..
+
+recommendation and why..
+
+
+### Recommendation for Future Analysis
+
+Where can we go from here? Add on to data? Explore hard financial numbers to make more informed decisions?
