@@ -1,5 +1,7 @@
 # Team_Red -- Module 20 Challenge
 
+## Topic
+
 We will analyze a Holiday package dataset to identify key market segments, and to manufacture a high level strategy to connect to target groups to sell them the getaway package at a higher success rate.
 
 If you would like to access the slideshow for a more brief report, you can do so [here](https://docs.google.com/presentation/d/1I5h9CG6jF9-2hxQ4abF_KSPI4CQ6rH8Pa7tIWhde0Mo/edit?usp=sharing)
@@ -71,6 +73,12 @@ Major Libraries:
 	- Imblearn
  
  A full list of libraries and environmental requirements can be found [here](https://github.com/Cthompsonlbi/Team_Red/requirements.txt)
+
+
+---
+## Process of Data Analysis and Evaluation
+
+The data file was loaded into the EDA notebook, where it was cleaned. From there, it was uploaded to the SQL database as a new table. The new table would then be called for the machine learning portion of the analysis, and thus needed to be preprocessed (scaled, binned, encoded, resampled). Due to the imbalanced nature of the data (19% of products pitched were purchased), we trained our models with both oversampled and original training sets to compare results. In total, we were left with four models. Once preprocessed, K-Fold cross validation was performed on each model to determine the optimal parameters. Classification reports, confusion matrices, and accuracy scores were used as metrics to determine a model's performance. Finally, feature importance was pulled for later analysis. A general flow chart of the described process can be found below.
 
 ![HighlevelProjectFlow](Images/HighlevelProjectFlow.PNG)
 
