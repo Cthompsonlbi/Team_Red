@@ -220,7 +220,7 @@ In this dashboard we were able to modify the data a bit more to allow the vizual
 ---
 ## Google Slides
 
-![Google Slides] https://docs.google.com/presentation/d/1I5h9CG6jF9-2hxQ4abF_KSPI4CQ6rH8Pa7tIWhde0Mo/edit?usp=sharing
+https://docs.google.com/presentation/d/1I5h9CG6jF9-2hxQ4abF_KSPI4CQ6rH8Pa7tIWhde0Mo/edit?usp=sharing
 
 ---
 ---
