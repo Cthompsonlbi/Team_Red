@@ -216,22 +216,34 @@ In this dashboard we were able to modify the data a bit more to allow the vizual
 
 ![marketing resolution](https://user-images.githubusercontent.com/92830382/162109456-12931653-6f1d-4f1e-bf75-0bc014247dc3.PNG)
 
+---
+---
+## Google Slides
 
+https://docs.google.com/presentation/d/1I5h9CG6jF9-2hxQ4abF_KSPI4CQ6rH8Pa7tIWhde0Mo/edit?usp=sharing
+
+---
+---
 ## Summary
 
 models suggests..
 
-Tableau suggests younger consumers are more likely to purchase a vacation package than their older counter parts.  18-24 year olds have a conversion rate of 45%.  Meaning that 45% of the 18-24 years that are pitched a vacation package by a sales person are likely to purchase. However, this age group is severely underserved as it represents only 5.6% of all products pitched.  25- 31 year olds have a conversion rate of 24.78% and make up about 21.4% of the dataset of products pitched.  The remaining age groups only had a conversion rate of mid to low teens. Another take away from the tableau analysis is the monthly income of potential customers that had the highest conversion rate was from $16k-$23k.  The percentage of conversion for this monthly income range was in the mid 20's.  While the remaining monthly income ranges were significantly lower.  Also, the data suggests that the most likely purchased vacation packages would be the Basic, Standard, and Deluxe packages which are the low to mid cost vacation packages and not the higher cost packages like the Super Deluxe and King packages.
+Our Analysis suggests younger consumers are more likely to purchase a vacation package than their older counter parts.  18-24 year olds have a conversion rate of 45%.  Meaning that 45% of the 18-24 years that are pitched a vacation package by a sales person are likely to purchase. However, this age group is severely underserved as it represents only 5.6% of all products pitched.  25- 31 year olds have a conversion rate of 24.78% and make up about 21.4% of the dataset of products pitched.  The remaining age groups only had a conversion rate of mid to low teens. Another take away from the tableau analysis is the monthly income of potential customers that had the highest conversion rate was from $16k-$23k.  The percentage of conversion for this monthly income range was in the mid 20's.  While the remaining monthly income ranges were significantly lower.  Also, the data suggests that the most likely purchased vacation packages would be the Basic, Standard, and Deluxe packages which are the low to mid cost vacation packages and not the higher cost packages like the Super Deluxe and King packages.
 
 With this in mind, the tableau analysis would suggest that the client should develop a marketing strategy that focuses on economical vacation packages for 18 to 31 year olds that have a monthly income in the range of $16k-$23K.
 
 ![summary](https://user-images.githubusercontent.com/92830382/162109478-7c2f9523-faba-4845-ad48-5aebeda11df3.PNG)
 
 
-ultimately suggests..
-
 ### Recommendation for Future Analysis
 
-Where can we go from here? Add on to data? Explore hard financial numbers to make more informed decisions?
+Where can we go from here? 
+
+The interactive features in Tableau could be used to answer additional business questions and run through different scenarios, e.g.
+
+- What would be the best product to pitch if we received access to a mailing list of potential customer in a certain age group/ income group?
+- How should goals for employees working in sales be set based on the demographics of their region?
 
 Based on the analysis we have completed thus far, our team of experts believes that adding more features to the dataset would exponentially increase the accuracy of our predictions. For example, if the dataset were to include the ADR (average daily rate), this would give us a better idea on what amount of money our guests are willing to pay for each package. Similarly, adding significant dates such as the date a package was booked and the dates stayed would add another level to our dataset because we would be able to analyze peak times throughout the year as well as how much of a discount customers receive for staying 4 nights versus 3 nights. The final point we would like to add is the location of the stay. We may be able to find that consumers are more likely to book a stay in Mexico during the summer time than they are during Christmas time. This will greatly increase the efficiency of our employees and the amount of time it takes for them to get a Yes from our potential guests. 
+
+
