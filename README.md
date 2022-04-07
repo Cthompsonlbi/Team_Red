@@ -72,7 +72,7 @@ Major Libraries:
 
 	- Imblearn
  
- A full list of libraries and environmental requirements can be found [here](Team_Red/requirements.txt)
+ A full list of libraries and environmental requirements can be found [here](requirements.txt)
 
 
 ---
