@@ -216,10 +216,14 @@ In this dashboard we were able to modify the data a bit more to allow the vizual
 
 ![marketing resolution](https://user-images.githubusercontent.com/92830382/162109456-12931653-6f1d-4f1e-bf75-0bc014247dc3.PNG)
 
+---
+---
 ## Google Slides
 
 ![Google Slides] https://docs.google.com/presentation/d/1I5h9CG6jF9-2hxQ4abF_KSPI4CQ6rH8Pa7tIWhde0Mo/edit?usp=sharing
 
+---
+---
 ## Summary
 
 models suggests..
@@ -233,7 +237,13 @@ With this in mind, the tableau analysis would suggest that the client should dev
 
 ### Recommendation for Future Analysis
 
-Where can we go from here? Add on to data? Explore hard financial numbers to make more informed decisions?
+Where can we go from here? 
+
+The interactive features in Tableau could be used to answer additional business questions and run through different scenarios, e.g.
+
+- What would be the best product to pitch if we received access to a mailing list of potential customer in a certain age group/ income group?
+- How should goals for employees working in sales be set based on the demographics of their region?
 
 Based on the analysis we have completed thus far, our team of experts believes that adding more features to the dataset would exponentially increase the accuracy of our predictions. For example, if the dataset were to include the ADR (average daily rate), this would give us a better idea on what amount of money our guests are willing to pay for each package. Similarly, adding significant dates such as the date a package was booked and the dates stayed would add another level to our dataset because we would be able to analyze peak times throughout the year as well as how much of a discount customers receive for staying 4 nights versus 3 nights. The final point we would like to add is the location of the stay. We may be able to find that consumers are more likely to book a stay in Mexico during the summer time than they are during Christmas time. This will greatly increase the efficiency of our employees and the amount of time it takes for them to get a Yes from our potential guests. 
+
 
