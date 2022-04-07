@@ -230,9 +230,6 @@ With this in mind, the tableau analysis would suggest that the client should dev
 
 ultimately suggests..
 
-recommendation and why..
-
-
 ### Recommendation for Future Analysis
 
 Where can we go from here? Add on to data? Explore hard financial numbers to make more informed decisions?
