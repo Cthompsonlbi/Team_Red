@@ -171,8 +171,7 @@ The two models with the best performance tailored to our team's objective are pr
 
 Below, are the two best performing models when considering our client's objective.
 
-REPLACE IMAGE with updated GOOGLE SLIDE
-![cm_ss](https://user-images.githubusercontent.com/92830382/161461080-e2cacb1f-19fb-4659-aabc-aadf6cf48a61.png)
+![ML_results](https://user-images.githubusercontent.com/92830382/162109877-c38c6cfd-bbd6-4e17-9ab3-23706f673da3.PNG)
 
 
 In addition, a chart containing the most important features, according to our oversampled random forest classifier, is provided below:
