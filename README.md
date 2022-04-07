@@ -201,7 +201,7 @@ A Web application was developed to allow the user to interact with the data by e
 ---
 ## Tableau Analysis
 
-[Link to Dashboard](https://public.tableau.com/app/profile/cathleen.mai/viz/InsightsontheBeach428am/Story1?publish=yes)
+[Link to Dashboard](https://public.tableau.com/app/profile/trevor.sreekrisenjee/viz/Insightsonthebeach4_510pm/Story1?publish=yes)
 
 In this dashboard we were able to modify the data a bit more to allow the vizualizations to be more user friendly. 
 
